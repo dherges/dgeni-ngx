@@ -3,10 +3,19 @@
   "semanticCommits": true,
   "semanticPrefix": "chore:",
   "commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
+  "packageFiles": [
+    "package.json",
+    "sample/package.json"
+  ],
   "packages": [
     {
       "packagePattern": "^@angular\/.*",
       "groupName": "angular",
+      "pinVersions": false
+    },
+    {
+      "packagePattern": "^@types\/.*",
+      "groupName": "type definitions",
       "pinVersions": false
     },
     {
