@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "inlineSources": true,
+    "declaration": true,
+    "lib": ["es2015", "dom"],
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "files": [
+    "docs.ts"
+  ]
+}
