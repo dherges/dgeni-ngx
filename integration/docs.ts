@@ -1,13 +1,9 @@
 import { Dgeni, Package } from 'dgeni';
 import * as dgeni from 'dgeni';
-import ngxPackage from '../ngx/src/index';
+import myPackage from './my-package';
 
-const packages = [
-  ngxPackage
-];
-
-new Dgeni(packages)
+new Dgeni([myPackage])
   .generate()
   .then((docs) => {
-  console.log(docs.length, 'docs generated');
+    console.log(docs.length, 'docs generated');
   });

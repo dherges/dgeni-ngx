@@ -4,7 +4,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "inlineSourceMap": false,
+    "inlineSourceMap": true,
     "inlineSources": true,
     "declaration": true,
     "lib": ["es2015", "dom"],
