@@ -505,9 +505,9 @@ dependency-graph@~0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.4.1.tgz#302e58218d85c51a97638730dbf9b7d852a19693"
 
-dgeni-packages@~0.21.3:
-  version "0.21.5"
-  resolved "https://registry.yarnpkg.com/dgeni-packages/-/dgeni-packages-0.21.5.tgz#cb905c68d4ee0b2ce32363192d3fcbac0f116e3e"
+dgeni-packages@~0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/dgeni-packages/-/dgeni-packages-0.22.0.tgz#7ed07af9074f6547847256c1a65b488a5a17ad03"
   dependencies:
     canonical-path "0.0.2"
     catharsis "^0.8.1"
