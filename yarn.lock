@@ -2,6 +2,44 @@
 # yarn lockfile v1
 
 
+"@angular/common@4.2.3":
+  version "4.2.3"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/common/-/common-4.2.3.tgz#e0173612eb6a9cf8dd50bd34c8a932dbce91d2bf"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/compiler-cli@4.2.3":
+  version "4.2.3"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/compiler-cli/-/compiler-cli-4.2.3.tgz#33aa3fbf4d9879cc142a3ecce46996bec840c029"
+  dependencies:
+    "@angular/tsc-wrapped" "4.2.3"
+    minimist "^1.2.0"
+    reflect-metadata "^0.1.2"
+
+"@angular/compiler@4.2.3":
+  version "4.2.3"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/compiler/-/compiler-4.2.3.tgz#e9cded47994cf4adb7522d778c46b1f7c5263302"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/core@4.2.3":
+  version "4.2.3"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/core/-/core-4.2.3.tgz#ab7329c18d4fd305872b82718ffae3e76e4d4549"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/platform-browser@4.2.3":
+  version "4.2.3"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/platform-browser/-/platform-browser-4.2.3.tgz#9a1accfc9e93a9561012bba037a04b41cedc0255"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/tsc-wrapped@4.2.3":
+  version "4.2.3"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/tsc-wrapped/-/tsc-wrapped-4.2.3.tgz#1983e65d9ca96395dd52a0a904acfe8ac8e5724d"
+  dependencies:
+    tsickle "^0.21.0"
+
 "@commitlint/cli@~4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-4.1.0.tgz#c7ca6c3f65998fb80d84b972f6e43df495b58099"
@@ -150,6 +188,16 @@ array-find-index@^1.0.1:
 array-ify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/array-ify/-/array-ify-1.0.0.tgz#9e528762b4a9066ad163a6962a364418e9626ece"
+
+array-union@^1.0.1:
+  version "1.0.2"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/array-union/-/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
+  dependencies:
+    array-uniq "^1.0.1"
+
+array-uniq@^1.0.1:
+  version "1.0.3"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/array-uniq/-/array-uniq-1.0.3.tgz#af6ac877a25cc7f74e058894753858dfdb24fdb6"
 
 array-unique@^0.2.1:
   version "0.2.1"
@@ -369,6 +417,10 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
+code-block-writer@^4.2.1:
+  version "4.2.1"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/code-block-writer/-/code-block-writer-4.2.1.tgz#c93075dc05c58520714fd909497189a60ff15e9f"
+
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
@@ -505,9 +557,9 @@ dependency-graph@~0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.4.1.tgz#302e58218d85c51a97638730dbf9b7d852a19693"
 
-dgeni-packages@~0.21.3:
-  version "0.21.5"
-  resolved "https://registry.yarnpkg.com/dgeni-packages/-/dgeni-packages-0.21.5.tgz#cb905c68d4ee0b2ce32363192d3fcbac0f116e3e"
+dgeni-packages@~0.22.0:
+  version "0.22.0"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/dgeni-packages/-/dgeni-packages-0.22.0.tgz#7ed07af9074f6547847256c1a65b488a5a17ad03"
   dependencies:
     canonical-path "0.0.2"
     catharsis "^0.8.1"
@@ -789,7 +841,7 @@ glob-parent@^2.0.0:
   dependencies:
     is-glob "^2.0.0"
 
-glob@^7.0.0, glob@^7.0.5:
+glob@^7.0.0, glob@^7.0.3, glob@^7.0.5:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -799,6 +851,16 @@ glob@^7.0.0, glob@^7.0.5:
     minimatch "^3.0.4"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+globby@^6.1.0:
+  version "6.1.0"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/globby/-/globby-6.1.0.tgz#f5a6d70e8395e21c858fb0489d64df02424d506c"
+  dependencies:
+    array-union "^1.0.1"
+    glob "^7.0.3"
+    object-assign "^4.0.1"
+    pify "^2.0.0"
+    pinkie-promise "^2.0.0"
 
 graceful-fs@^4.1.2, graceful-fs@^4.1.3:
   version "4.1.11"
@@ -1293,6 +1355,10 @@ nan@^2.3.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
 
+ngast@0.0.27:
+  version "0.0.27"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/ngast/-/ngast-0.0.27.tgz#ffb52f0bf73ed6d9d08916b40e4d2ae6f484af02"
+
 no-case@^2.2.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
@@ -1627,6 +1693,10 @@ redent@^1.0.0:
     indent-string "^2.1.0"
     strip-indent "^1.0.1"
 
+reflect-metadata@^0.1.2:
+  version "0.1.10"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/reflect-metadata/-/reflect-metadata-0.1.10.tgz#b4f83704416acad89988c9b15635d47e03b9344a"
+
 regenerator-runtime@^0.10.5:
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
@@ -1723,6 +1793,12 @@ rx-lite@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-3.1.2.tgz#19ce502ca572665f3b647b10939f97fd1615f102"
 
+rxjs@^5.4.3:
+  version "5.4.3"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/rxjs/-/rxjs-5.4.3.tgz#0758cddee6033d68e0fd53676f0f3596ce3d483f"
+  dependencies:
+    symbol-observable "^1.0.1"
+
 safe-buffer@^5.0.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
@@ -1770,7 +1846,7 @@ sntp@1.x.x:
   dependencies:
     hoek "2.x.x"
 
-source-map-support@^0.4.0, source-map-support@^0.4.15:
+source-map-support@^0.4.0, source-map-support@^0.4.15, source-map-support@^0.4.2:
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
   dependencies:
@@ -1895,6 +1971,10 @@ swap-case@^1.1.0:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
 
+symbol-observable@^1.0.1:
+  version "1.0.4"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
+
 tar-pack@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/tar-pack/-/tar-pack-3.4.0.tgz#23be2d7f671a8339376cbdb0b8fe3fdebf317984"
@@ -1977,12 +2057,33 @@ ts-node@~3.3.0:
     v8flags "^3.0.0"
     yn "^2.0.0"
 
+ts-simple-ast@0.72.1:
+  version "0.72.1"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/ts-simple-ast/-/ts-simple-ast-0.72.1.tgz#51f68a91db6ea16895fb2d1d5bcfcb60b5e378c5"
+  dependencies:
+    code-block-writer "^4.2.1"
+    globby "^6.1.0"
+    typescript "2.5.3"
+
 tsconfig@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/tsconfig/-/tsconfig-6.0.0.tgz#6b0e8376003d7af1864f8df8f89dd0059ffcd032"
   dependencies:
     strip-bom "^3.0.0"
     strip-json-comments "^2.0.0"
+
+tsickle@^0.21.0:
+  version "0.21.6"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/tsickle/-/tsickle-0.21.6.tgz#53b01b979c5c13fdb13afb3fb958177e5991588d"
+  dependencies:
+    minimist "^1.2.0"
+    mkdirp "^0.5.1"
+    source-map "^0.5.6"
+    source-map-support "^0.4.2"
+
+tslib@^1.7.1:
+  version "1.7.1"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
@@ -1998,7 +2099,7 @@ typescript@2.4:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
 
-typescript@~2.5.3:
+typescript@2.5.3, typescript@~2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
 
@@ -2133,3 +2234,7 @@ yargs@^3.32.0:
 yn@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/yn/-/yn-2.0.0.tgz#e5adabc8acf408f6385fc76495684c88e6af689a"
+
+zone.js@^0.8.18:
+  version "0.8.18"
+  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/zone.js/-/zone.js-0.8.18.tgz#8cecb3977fcd1b3090562ff4570e2847e752b48d"

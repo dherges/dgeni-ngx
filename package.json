@@ -8,18 +8,30 @@
   "license": "MIT",
   "private": true,
   "peerDependencies": {
-    "dgeni": "^0.4.0"
+    "dgeni": "^0.4.0",
+    "dgeni-packages": "~0.22.0"
+  },
+  "dependencies": {
+    "ngast": "0.0.27",
+    "ts-simple-ast": "0.72.1"
   },
   "devDependencies": {
+    "@angular/common": "4.2.3",
+    "@angular/compiler": "4.2.3",
+    "@angular/compiler-cli": "4.2.3",
+    "@angular/core": "4.2.3",
+    "@angular/platform-browser": "4.2.3",
     "@commitlint/cli": "~4.1.0",
     "@commitlint/config-angular": "~3.1.1",
     "@commitlint/prompt": "~4.1.0",
     "@types/node": "~8.0.31",
     "dgeni": "~0.4.9",
-    "dgeni-packages": "~0.21.3",
+    "dgeni-packages": "~0.22.0",
     "husky": "~0.14.3",
+    "rxjs": "^5.4.3",
     "ts-node": "~3.3.0",
-    "typescript": "~2.5.3"
+    "typescript": "~2.5.3",
+    "zone.js": "^0.8.18"
   },
   "scripts": {
     "build": "tsc -p ngx/tsconfig.json",
