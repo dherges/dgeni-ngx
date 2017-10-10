@@ -1,7 +1,7 @@
 import { Processor, DocCollection, Document } from 'dgeni';
 import { ProjectSymbols, ErrorReporter, ModuleSymbol, Symbol, DirectiveSymbol } from 'ngast';
 import Ast from 'ts-simple-ast';
-import { SourceFile } from 'ts-simple-ast';
+import { SourceFile, ExportDeclaration } from 'ts-simple-ast';
 import { NgAstResourceResolver } from '../utils/ng-ast-resource-resolver';
 import { NgModuleDoc } from '../doc-types/ng-module.doc';
 import { ComponentDoc } from '../doc-types/component.doc';
@@ -96,9 +96,16 @@ export class CollectSymbolsProcessor implements Processor {
       tsAst.addSourceFileFromText(doc.fileInfo.filePath, doc.content);
     });
 
-    tsAst.getSourceFiles().forEach((file: SourceFile) => {
-
-    });
+    const foo = tsAst.getSourceFiles()
+      .map((file: SourceFile) => {
+        return file.getExports(); // XX ... why an empty array?
+      })
+      .reduce(
+        (prev: ExportDeclaration[], current: ExportDeclaration[]) => {
+          return prev.concat(...current);
+        },
+        []
+      );
 
 
     // ngAst
@@ -106,7 +113,6 @@ export class CollectSymbolsProcessor implements Processor {
       tsAst.getProgram().compilerObject,
       new NgAstResourceResolver(),
       (error: any, path: string) => {
-        debugger;
         console.error(error)
       }
     );

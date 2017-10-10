@@ -1,6 +1,7 @@
 import { Document, Package, Processor } from 'dgeni';
 import ngFileReader from './file-readers/ng-file-reader';
 import { collectSymbolsProcessor } from './processors/collect-symbols.processor';
+import TAGS from './tag-defs'
 
 const basePackage = require('dgeni-packages/base');
 const jsdocPackage = require('dgeni-packages/jsdoc');
@@ -15,4 +16,8 @@ export default new Package('ngx', [ basePackage, jsdocPackage, nunjucksPackage ]
     }
 
     readFilesProcessor.fileReaders.push(ngFileReader);
+  })
+  // Configure tag definitions
+  .config(function(parseTagsProcessor: any, getInjectables: any) {
+    parseTagsProcessor.tagDefinitions = getInjectables(TAGS);
   })
