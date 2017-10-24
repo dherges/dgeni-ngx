@@ -2057,12 +2057,13 @@ ts-node@~3.3.0:
     v8flags "^3.0.0"
     yn "^2.0.0"
 
-ts-simple-ast@0.75.0:
-  version "0.75.0"
-  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-0.75.0.tgz#1f5aca6c13cd7ad6f52145323b04d95668c80d10"
+ts-simple-ast@0.78.1:
+  version "0.78.1"
+  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-0.78.1.tgz#bf23dae74c648120d5d966a4cb5502e4ed6d86e5"
   dependencies:
     code-block-writer "^4.2.1"
     globby "^6.1.0"
+    minimatch "^3.0.4"
     typescript "2.5.3"
 
 tsconfig@^6.0.0:
