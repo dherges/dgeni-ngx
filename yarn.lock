@@ -1355,9 +1355,9 @@ nan@^2.3.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
 
-ngast@0.0.27:
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/ngast/-/ngast-0.0.27.tgz#ffb52f0bf73ed6d9d08916b40e4d2ae6f484af02"
+ngast@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ngast/-/ngast-0.1.0.tgz#4e364f7fc0597b0955f1de75a362e53d188984a5"
 
 no-case@^2.2.0:
   version "2.3.2"
