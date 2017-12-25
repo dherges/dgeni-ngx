@@ -417,9 +417,9 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
-code-block-writer@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/code-block-writer/-/code-block-writer-5.0.0.tgz#51c95723208c1af3003767b82170572dd2aff6e6"
+code-block-writer@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/code-block-writer/-/code-block-writer-6.2.0.tgz#f436d3b9a239bdc5bd96f5c7b764de5b7cde9339"
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -2057,11 +2057,11 @@ ts-node@~3.3.0:
     v8flags "^3.0.0"
     yn "^2.0.0"
 
-ts-simple-ast@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-1.0.1.tgz#754ab1ae9dd0b0e3e23a789e52f50f5934aeb86f"
+ts-simple-ast@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-1.3.0.tgz#88ecd8e2b28668c22fc48ec219dd8cce78187c70"
   dependencies:
-    code-block-writer "^5.0.0"
+    code-block-writer "^6.2.0"
     globby "^6.1.0"
     minimatch "^3.0.4"
     object-assign "^4.1.1"
