@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "ngast": "0.1.2",
-    "ts-simple-ast": "1.0.1"
+    "ts-simple-ast": "4.2.1"
   },
   "devDependencies": {
     "@angular/common": "4.4.6",
