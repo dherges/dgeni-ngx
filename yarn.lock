@@ -2070,9 +2070,9 @@ ts-node@~3.3.0:
     v8flags "^3.0.0"
     yn "^2.0.0"
 
-ts-simple-ast@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-6.2.0.tgz#43fcfbd19affb5b8dbb27acdb6c6d5e4c575bc91"
+ts-simple-ast@6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-6.12.0.tgz#bd232d7fc7e3f1ff121182554de1e4216f92582e"
   dependencies:
     code-block-writer "^6.2.0"
     globby "^6.1.0"
