@@ -2070,15 +2070,15 @@ ts-node@~3.3.0:
     v8flags "^3.0.0"
     yn "^2.0.0"
 
-ts-simple-ast@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-6.2.0.tgz#43fcfbd19affb5b8dbb27acdb6c6d5e4c575bc91"
+ts-simple-ast@7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/ts-simple-ast/-/ts-simple-ast-7.1.0.tgz#bf50e75788b0b903b7b2b0b598320dc6214441ed"
   dependencies:
     code-block-writer "^6.2.0"
     globby "^6.1.0"
     multimatch "^2.1.0"
     object-assign "^4.1.1"
-    typescript "^2.4.x"
+    typescript "2.7.1"
 
 tsconfig@^6.0.0:
   version "6.0.0"
@@ -2114,9 +2114,9 @@ typescript@2.4:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
 
-typescript@^2.4.x:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
+typescript@2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.1.tgz#bb3682c2c791ac90e7c6210b26478a8da085c359"
 
 typescript@~2.5.3:
   version "2.5.3"
