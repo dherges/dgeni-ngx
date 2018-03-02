@@ -9,7 +9,7 @@
   "private": true,
   "peerDependencies": {
     "dgeni": "^0.4.0",
-    "dgeni-packages": "~0.22.0"
+    "dgeni-packages": "~0.26.0"
   },
   "dependencies": {
     "ngast": "0.1.2",
@@ -26,7 +26,7 @@
     "@commitlint/prompt": "~4.2.0",
     "@types/node": "~9.3.0",
     "dgeni": "~0.4.9",
-    "dgeni-packages": "~0.22.0",
+    "dgeni-packages": "~0.26.0",
     "husky": "~0.14.3",
     "rxjs": "^5.4.3",
     "ts-node": "~3.3.0",
