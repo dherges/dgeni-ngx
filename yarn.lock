@@ -1368,9 +1368,11 @@ nan@^2.3.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
 
-ngast@0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/ngast/-/ngast-0.1.2.tgz#ce78ed85fbf0f1dd0eabda4263e3d223eeaeaeb3"
+ngast@0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/ngast/-/ngast-0.1.4.tgz#feeee2e5c9a997a86976897eb8635b56cd54d35b"
+  dependencies:
+    typescript "~2.6.0"
 
 no-case@^2.2.0:
   version "2.3.2"
@@ -2114,7 +2116,7 @@ typescript@2.4:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
 
-typescript@^2.4.x:
+typescript@^2.4.x, typescript@~2.6.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
 
