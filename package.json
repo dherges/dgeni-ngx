@@ -12,7 +12,7 @@
     "dgeni-packages": "~0.22.0"
   },
   "dependencies": {
-    "ngast": "0.1.2",
+    "ngast": "0.1.4",
     "ts-simple-ast": "6.2.0"
   },
   "devDependencies": {
